@@ -1,0 +1,444 @@
+/* デッキ類 */
+.place1{
+    display:inline-block;
+    vertical-align: middle;
+}
+.place2{
+    display:inline-block;
+    vertical-align: middle;
+}
+.place3{
+    display:inline-block;
+    vertical-align: middle;
+}
+.place4{
+    display:inline-block;
+    vertical-align: middle;
+}
+.place5{
+    display:inline-block;
+    vertical-align: middle; 
+}
+.place6{
+    display:inline-block;
+    vertical-align: middle; 
+}
+.place7{
+    display:inline-block;
+    vertical-align: middle;
+}
+.place8{
+    display:inline-block;
+    vertical-align: middle;
+}
+.card-size{
+    width: 205px;
+    height: 243px;
+}
+.deck{
+    position: absolute;
+    left: 30px;
+    top: 520px;
+}
+.deckimg{
+  width: 880px;
+  height: 914px;
+}
+
+body {
+  background-image: url("img/bg.jpg");
+}
+/* 画像類 */
+.header{
+    width: 880px;
+    height: 294px;
+}
+.cpr{
+    position: absolute;
+    left: 390px;
+    top: 1180px;
+}
+.copyright_class{
+    font-size: 16px;
+}
+.reload {
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    left: 30px;
+    top: 350px;
+}
+.copy {
+    position: absolute;
+    left: 781px;
+    top: 348px;
+}
+.elixeraverage {
+    position: absolute;
+    left: 620px;
+    top: 1115px;
+
+    font-size: 50px;
+    color: #db18d8;
+    font-family: "Impact";
+}
+.information {
+    position: absolute;
+    left: 783px;
+    top: 1108px;
+}
+.print-01{
+  font-size: 50px;
+  color: #db18d8;
+  font-family: "Impact";
+}
+
+
+.mod_form form input{
+  vertical-align:middle;
+}
+.mod_form form table {
+  width: 100%;
+}
+/*.mod_form form table th,
+.mod_form form table td{
+  border-bottom: 1px solid #999999;
+}*/
+.mod_form form table th {
+  padding: 20px;
+  width:20%;
+  font-weight:bold;
+  color:#000;
+  vertical-align: top;
+}
+.mod_form form table td {
+  padding: 20px;
+  width:100%;
+  vertical-align: top;
+}
+.unitbox{
+  float: left;
+  width: 270px;
+}
+
+.mod_form form table td.taste label img{
+  margin:0 23px 0 0;
+}
+.taste{
+  float: left;
+}
+.card_name_center{
+  font-size: 76px;
+  font-family: 'arial unicode ms';
+}
+.allcardset_font{
+  font-size: 26px;
+}
+
+/* チェックボックス */
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700&subset=cyrillic');
+input{
+  display:none;  
+}
+.block{
+  width:200px;
+  position:relative;
+  clear:both;
+  margin:0 0 25px;
+  float: left;
+}
+
+.block2{
+  width:270px;
+  position:relative;
+  clear:both;
+  margin:0 0 25px;
+  display:inline-block;
+}
+
+span{
+  text-transform:uppercase;
+  font-family:'Roboto Condensed', sans-serif;
+  font-weight:bold;
+  letter-spacing:1px;
+  font-size:15px;
+  float:right;
+  width:85px;
+  margin:16px 0 0;
+}
+label{
+  width:100px;
+  height:50px;
+  box-sizing:border-box;
+  border:3px solid;
+  float:left;
+  border-radius:100px;
+  position:relative;
+  cursor:pointer;
+  transition:.3s ease;
+}
+input[type=checkbox]:checked + label{
+  background:#55e868;
+}
+input[type=checkbox]:checked + label:before{
+  left:50px;
+}
+label:before{
+  transition:.3s ease;
+  content:'';
+  width:40px;
+  height:40px;
+  position:absolute;
+  background:white;
+  left:2px;
+  top:2px;
+  box-sizing:border-box;
+  border:3px solid;
+  color:black;
+  border-radius:100px;
+}
+
+.submit_btn{
+  display: block;
+  border: 0px;
+  width:305px;
+  height:149px;
+  margin-left: auto;
+  margin-right: auto;
+  background: url(img/ok.png) left top no-repeat;
+}
+.imgcheck{
+    width: 205px;
+    height: 243px;
+}
+
+
+
+
+
+
+/*--------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 480px) {
+/*img {
+  width: 100%;
+  height: auto;
+}*/
+.place1{
+  display:inline-block;
+  vertical-align: middle;
+}
+.place2{
+    display:inline-block;
+    vertical-align: middle;
+}
+.place3{
+    display:inline-block;
+    vertical-align: middle;
+}
+.place4{
+    display:inline-block;
+    vertical-align: middle;
+}
+.place5{
+    display:inline-block;
+    vertical-align: middle; 
+}
+.place6{
+    display:inline-block;
+    vertical-align: middle; 
+}
+.place7{
+    display:inline-block;
+    vertical-align: middle;
+}
+.place8{
+    display:inline-block;
+    vertical-align: middle;
+}
+.deck{
+    width: 880px;
+    position: absolute;
+    left: 30px;
+    top: 520px;
+}
+body {
+  background-image: url("img/bg.jpg");
+  padding: 0%;
+}
+.cpr{
+    width: 500px;
+    position: absolute;
+    left: 390px;
+    top: 1180px;
+}
+.reload {
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    left: 30px;
+    top: 350px;
+}
+.copy {
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    left: 781px;
+    top: 348px;
+}
+.elixeraverage {
+    position: absolute;
+    left: 620px;
+    top: 1115px;
+    font-size: 50px;
+    color: #db18d8;
+    font-family: "Impact";
+}
+.information {
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    left: 783px;
+    top: 1108px;
+}
+.print-01{
+  font-size: 50px;
+  color: #db18d8;
+  font-family: "Impact";
+}
+.form_block2{
+  border: solid #000;
+}
+
+.mod_form form input{
+  vertical-align:middle;
+}
+.mod_form form table {
+  width: 100%;
+}
+/*.mod_form form table th,
+.mod_form form table td{
+  border-bottom: 1px solid #999999;
+}*/
+.mod_form form table th {
+  padding: 20px;
+  width:20%;
+  font-weight:bold;
+  color:#000;
+  vertical-align: top;
+}
+.mod_form form table td {
+  padding: 0;
+  width:100%;
+  vertical-align: top;
+}
+.unitbox{
+  float: left;
+  width: 150px;
+}
+
+.mod_form form table td.taste label img{
+  margin:0 23px 0 0;
+}
+.taste{
+  float: left;
+}
+.card_name_center{
+  font-size: 26px;
+  font-family: 'arial unicode ms';
+  width: 150px;
+}
+.allcardset_font{
+  font-size: 26px;
+  display:inline-block;
+  margin: 10px 0 10px 0;
+  font-weight:bold;
+}
+
+/* チェックボックス */
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700&subset=cyrillic');
+input{
+  display:none;  
+}
+.block{
+  width:150px;
+  position:relative;
+  clear:both;
+  margin:0 0 25px;
+  float: left;
+}
+
+.block2{
+  width:270px;
+  position:relative;
+  clear:both;
+  margin:0;
+  display:inline-block;
+}
+
+span{
+  text-transform:uppercase;
+  font-family:'Roboto Condensed', sans-serif;
+  font-weight:bold;
+  letter-spacing:1px;
+  font-size:12px;
+  width:100%;
+  margin: 0;
+  text-align: center;
+}
+label{
+  width:80px;
+  height:40px;
+  box-sizing:border-box;
+  border:3px solid;
+  float:left;
+  border-radius:100px;
+  position:relative;
+  cursor:pointer;
+  transition:.3s ease;
+  margin-left: 35px;
+}
+input[type=checkbox]:checked + label{
+  background:#55e868;
+}
+input[type=checkbox]:checked + label:before{
+  left:38px;
+}
+label:before{
+  transition:.3s ease;
+  content:'';
+  width:32px;
+  height:32px;
+  position:absolute;
+  background:white;
+  left:3px;
+  top:1px;
+  box-sizing:border-box;
+  border:3px solid;
+  color:black;
+  border-radius:100px;
+}
+
+.submit_btn{
+  display: block;
+  border: 0px;
+  width: 168px;
+  height: 82px;
+  margin-left: auto;
+  margin-right: auto;
+  background: url(img/ok.png) left top no-repeat;
+  background-size: 168px 82px;
+}
+.imgcheck{
+    width: 150px;
+    height: 167px;
+}
+}
